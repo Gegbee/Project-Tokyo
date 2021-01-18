@@ -1,8 +1,9 @@
 import serial, pygame, time
 pygame.init()
 
-# port = "COM3"
-# arduino = serial.Serial(port, 9600)
+# port = "COM4"
+# baudrate = 9600
+# arduino = serial.Serial(port, baudrate)
 
 lx = 0.0
 ly = 0.0
