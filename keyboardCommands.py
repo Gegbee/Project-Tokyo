@@ -57,10 +57,11 @@ while run:
     ry = round(main_j.get_axis(3), 1)
     rt = round(main_j.get_axis(5) / 2 + 0.5, 1)
     lt = round(main_j.get_axis(4) / 2 + 0.5, 1)
+    a = int(main_j.get_button(0))
     sp = process_speed(rt)
     motors = process_turning(lx / 2 + 0.5, sp)
     # print("Left x: " + lx, "Left y: " + ly, "Right x: " + rx, "Right y: " + ry, "Right trigger: " + rt, "Left trigger: " + lt)
-    data = f"{str(motors[1])}|{str(motors[0])}"
+    data = f"{str(motors[1])}|{str(motors[0])}/{str(a)}"
     print(data)
     # arduino.write(data.encode())
     # mx, my = pygame.mouse.get_pos()

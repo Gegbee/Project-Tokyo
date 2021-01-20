@@ -20,3 +20,10 @@ Specifically, I eliminated the option of using a servo to rotate the wheels allo
 - Arduino IDE
 - *pygame* library for Python
 - *serial* library for Python
+
+# The Three Stages
+Project Tokyo has three stages all necessary for completion of the project
+
+### 1. **Arduino Uno** + **PC** control over car
+### 2. **Arduino Uno** + **Raspi 3** control over car
+### 3. Pure **Raspi 3** controlling car
