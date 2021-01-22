@@ -22,8 +22,10 @@ Specifically, I eliminated the option of using a servo to rotate the wheels allo
 - *serial* library for Python
 
 # The Three Stages
-Project Tokyo has three stages all necessary for completion of the project
+Project Tokyo has three stages (plus an extra far-fetched stage) all necessary for completion of the project
 
 ### 1. **Arduino Uno** + **PC** control over car
 ### 2. **Arduino Uno** + **Raspi 3** control over car
 ### 3. Pure **Raspi 3** controlling car
+### 4. **Arduino Nano** (controller) + **Arduino Uno** (car)
+ - This stage is much harder to complete than the other stages. In this stage I would make my own RC controller with a nano inside and use a radio module to transmit data to the car like most RC cars do instead of using bluetooth. I would have to buy more parts to complete this stage so it is unlikely it will be completed anytime soon.
